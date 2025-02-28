@@ -24,6 +24,30 @@
       "command": "python3", // Could be any other shell command
       "args": ["main.py", "python", "benchmark", "100"],
       "type": "shell"
+    },
+    {
+      "label": "Run 1000 games (Java)",
+      "command": "python3", // Could be any other shell command
+      "args": ["main.py", "java", "benchmark", "1000"],
+      "type": "shell"
+    },
+    {
+      "label": "Run 500 games (Java)",
+      "command": "python3", // Could be any other shell command
+      "args": ["main.py", "java", "benchmark", "500"],
+      "type": "shell"
+    },
+    {
+      "label": "Run 1000 games (Python)",
+      "command": "python3", // Could be any other shell command
+      "args": ["main.py", "python", "benchmark", "1000"],
+      "type": "shell"
+    },
+    {
+      "label": "Run 500 games (Python)",
+      "command": "python3", // Could be any other shell command
+      "args": ["main.py", "python", "benchmark", "500"],
+      "type": "shell"
     }
   ]
 }
